@@ -8,7 +8,6 @@ import os
 def resource_path(relative_path):
 
     try:
-        # PyInstaller создает временную папку в sys._MEIPASS
         base_path = sys._MEIPASS
     except Exception:
         # В обычном режиме используем текущую директорию
